@@ -1,2 +1,6 @@
 # Editor artifacts
 .~lock*
+
+# Eagle PCB
+*.s#*
+*~renumsch.scr
