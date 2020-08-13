@@ -11,7 +11,7 @@ This guide serves to provide step-by-step training and procedures for the develo
   * [Committing Changes](#committing-changes)
   * [Publishing a Document](#publishing-a-document)
   * [Fetching Changes From GitHub](#fetching-changes-from-github)
-  * [Releasing a Document from drafts to standards](#releasing-a-document-from-drafts-to-standards)
+- [Releasing a Document from drafts to standards](#releasing-a-document-from-drafts-to-standards)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -87,5 +87,5 @@ Often times it is necessary to update the local copy of the repository on your c
 2. Click on "Fetch origin".
 <img src="https://user-images.githubusercontent.com/2278798/90183883-defb1680-dd79-11ea-8228-37a2de5385af.png" width="800"/>
 
-## Releasing a Document from drafts to standards
+# Releasing a Document from drafts to standards
 TBD... this will be filled in later.
