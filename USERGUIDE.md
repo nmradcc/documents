@@ -53,9 +53,11 @@ New documents should be created in the [drafts](drafts) folder on a new branch. 
 
 ### Saving New Document
 The new document can simply be saved in the computer's local file system in the location where the repository was previously cloned.
+
 <img src="https://user-images.githubusercontent.com/2278798/90174804-28dd0000-dd6c-11ea-9d08-f1e3fd60eb43.png" width="800"/>
 
 Moving back over to the GitHub Desktop application, The new file should be present present and listed as "changed". At this point, the Git Repository knows nothing about the new document. In order for it to become part of the git repository, we need to commit it.
+
 <img src="https://user-images.githubusercontent.com/2278798/90179450-17e3bd00-dd73-11ea-99af-d3a844964657.png" width="800"/>
 
 ## Committing Changes
@@ -76,6 +78,7 @@ At this point, you may optionally modify the name, leave comments, add reviewers
 <img src="https://user-images.githubusercontent.com/2278798/90182412-8a569c00-dd77-11ea-9616-664689893668.png" width="800"/>
 
 Once having addressed any applicable review comments the branch may be merged. Note that a reviewer is not necessarily required to complete the merge. Select the option "Squash and merge". If this is your first time merging, you may need to click the down arrow in the green box to select the "Squash and merge" option. Once the operation is complete, you will be given an option to delete the branch. You may continue to add changes to the branch, however, if you are finished with using the branch, it is a good idea to delete it in order to remove clutter.
+
 <img src="https://user-images.githubusercontent.com/2278798/90182848-313b3800-dd78-11ea-83c9-a29a0b186691.png" width="800"/>
 
 ## Fetching Changes From GitHub
