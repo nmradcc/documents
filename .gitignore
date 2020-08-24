@@ -1,2 +1,6 @@
 # Editor artifacts
 .~lock*
+~*.tmp
+*.swp
+~$*.docx
+~$*.dotx
