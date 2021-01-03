@@ -2,6 +2,7 @@
 .~lock*
 ~*.tmp
 *.swp
+~$*.doc
 ~$*.docx
 ~$*.dotx
 *~
