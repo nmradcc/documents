@@ -36,7 +36,7 @@ for file in os.listdir("."):
 i = 0
 while i < len(inputs) :
     print("Generating \"" + outputs[i] + "\" from \"" + inputs[i] + "\"")
-    p = subprocess.run([OFFICETOPDF, "/readonly", "/print", "/bookmarks", "/excludetags", inputs[i], outputs[i]])
+    p = subprocess.run([OFFICETOPDF, "/readonly", "/print", "/bookmarks", "/excludetags", "/markup", "/word_show_all_markup", "/word_keep_history", inputs[i], outputs[i]])
     #if p.returncode != 0:
     #    print("Error: " + str(p.returncode) + ", try again")
     #    try:
