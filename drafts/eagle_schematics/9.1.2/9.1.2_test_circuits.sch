@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4658,7 +4658,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="27.94" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="94"/>
 <wire x1="53.34" y1="96.52" x2="53.34" y2="78.74" width="0.1524" layer="94"/>
 <text x="30.48" y="86.36" size="1.778" layer="97">Command Station
-(Test Harnes)</text>
+(Test Harness)</text>
 <wire x1="71.12" y1="96.52" x2="71.12" y2="78.74" width="0.1524" layer="94"/>
 <wire x1="71.12" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="94"/>
 <wire x1="96.52" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="94"/>
