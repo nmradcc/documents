@@ -1,0 +1,9 @@
+msc
+{
+  hscale = "1.5";
+
+  a [label="System"], b [label="Decoder"];
+
+  a->b [label="Select + ReadShortInfo"];
+  b->a [label="Suggested Address, Highest Configured, Protocol Flags"];
+}
