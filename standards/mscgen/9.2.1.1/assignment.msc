@@ -1,0 +1,9 @@
+msc
+{
+  hscale = "1.5";
+
+  a [label="System"], b [label="Decoder"];
+
+  a->b [label="Logon Assign (DID)"];
+  b->a [label="ID13, Change Flags, Change Count, Protocol Flags"];
+}

@@ -8,3 +8,7 @@
 ~$*.docx
 ~$*.dotx
 *~
+
+# Eagle Artifacts
+*.s#*
+*.b#*
