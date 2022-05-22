@@ -88,4 +88,30 @@ Often times it is necessary to update the local copy of the repository on your c
 <img src="https://user-images.githubusercontent.com/2278798/90183883-defb1680-dd79-11ea-8228-37a2de5385af.png" width="800"/>
 
 # Releasing a Document from drafts to standards
-TBD... this will be filled in later.
+1. Finalize document.
+   * Open document
+   * Accept all changes and stop tracking
+   * Remove "Draft" suffix from the Quick Parts Title field
+   * Review and cleanup as needed whitespace
+   * Add an entry to the Document History table with the published data and description
+   * Update the Table of Contents (if applicable), "update all fields"
+   * Save and close document
+   * Commit or upload document to Git (document is still in drafts folder at this point)
+2. Merge working branch back to master (document is still in drafts folder at this point).
+   * A pull request should be used for this purpose
+3. Create a new branch for the adoption process.
+   * git checkout master
+   * git pull
+   * git checkout -b \<username\>-adopt-\<document identifier\>
+     - text inside of \<\> should be replaced
+4. Delete the files from the standars director. This step should be skipped if adopting a standard into the repository for the first time, and there are no previously adopted files.
+   * git rm standards/S-9.x.x.x.docx
+   * git rm standards/S-9.x.x.x.pdf
+5. Commit the document removal to the branch.
+6. Move the files from draft to standards.
+   * git mv {drafts,standards}/S-9.x.x.x.docx
+   * git mv {drafts,standards}/S-9.x.x.x.pdf
+7. Commit the document move to the branch.
+8. Create a pull request with these changes on GitHub. Ask a maintainer to review the pull request.
+9. IMPORTANT: The PR must be merged with a "Create a merge commit" option.
+10. Delete branch.
