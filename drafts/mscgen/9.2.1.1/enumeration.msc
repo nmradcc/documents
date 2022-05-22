@@ -1,0 +1,9 @@
+msc
+{
+  hscale = "1.5";
+
+  a [label="System"], b [label="Decoder"];
+
+  a->b [label="Logon Enable"];
+  b->a [label="ID15, DID"];
+}
