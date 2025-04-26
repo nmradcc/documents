@@ -11,7 +11,7 @@ The primary purpose of this repository is to track issues related to NNRA S & C 
 ### Filing a new issue
 Before filing a new issue, it is a good idea to search the existing open issues to see if it has already been filed. If an existing open issue is a close match, it may be better to add additional commentary to the existing issue rather than file a completely new one.
 
-When creating a new issue, by convention the title should take the following form:
+When creating a new issue, by convention, the title should take the following form:
 
     \<NMRA Document Number\> \<Short Descritption\>
 
@@ -19,7 +19,7 @@ For example:
 
     S-9.2.1 Decoder Control Bit Definition Confusing
 
-The description field should provide a detailed explanation of the issue, including any supporting material.
+The description field should provide a detailed explanation of the issue, including any supporting material. If the issue references an existing NMRA document, provide as much context as possible (document name, version/date, line number, etc.).
 
 A Label should also be applied to the issue which matches the document number. In the example above, the label should be **9.2.1**.
 
@@ -27,7 +27,7 @@ A Label should also be applied to the issue which matches the document number. I
 Commenting on existing issues is encouraged. Commentary can include additional information, conversation on what the resolution should be, disagreement about the issue, etc. The intent is to capture a conversation that eventually leads to the best resolution. Having the context for historical archival purposes may also be useful in the future.
 
 ### Closing an Issue
-The most common way that an issue may be closed is when a resolution has made its way int an approved revision of the relevant document(s).
+The most common way that an issue may be closed is when a resolution has made its way into an approved revision of the relevant document(s).
 
 Issues may also be closed if later analysis determines that the issue does not need resolving. This might be common in the case of a misunderstanding which is resolved by further conversation.
 
