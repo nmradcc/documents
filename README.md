@@ -31,6 +31,8 @@ The most common way that an issue may be closed is when a resolution has made it
 
 Issues may also be closed if later analysis determines that the issue does not need resolving. This might be common in the case of a misunderstanding which is resolved by further conversation.
 
+Whenever closing an issue, be sure to comment on why the issue is being closed. This typically takes the form of a reference to the document version that deploys the resolution. If an issue is closed without resolution, be sure to also add the "wontfix" tag to it.
+
 ### Issues Tracker Tips
 The issues tracker web interface is easy to use and quite powerful. The search capability in particular is quite useful. For example, it is possible to search on labels.
 
