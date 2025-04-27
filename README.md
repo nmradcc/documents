@@ -13,7 +13,7 @@ Before filing a new issue, it is a good idea to search the existing open issues 
 
 When creating a new issue, by convention, the title should take the following form:
 
-    \<NMRA Document Number\> \<Short Descritption\>
+    <NMRA Document Number> <Short Descritption>
 
 For example:
 
